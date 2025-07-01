@@ -1,18 +1,17 @@
 // 🌱 Carrega variáveis de ambiente
 require("dotenv").config();
-
-// 📦 Imports
 const express  = require("express");
 const mongoose = require("mongoose");
 const bcrypt   = require("bcrypt");
 const jwt      = require("jsonwebtoken");
+const cors     = require("cors"); // <-- Adicionado aqui
 
-// 🧩 Modelos
 const User = require("./models/User");
 
-// 🚀 Inicializa o app
 const app = express();
-app.use(express.json()); // Permitir JSON no corpo da requisição
+
+app.use(cors()); // <-- Libera acesso para qualquer origem
+app.use(express.json());
 
 // 🌐 Rota de teste
 app.get("/", (req, res) => {
