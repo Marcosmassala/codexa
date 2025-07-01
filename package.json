@@ -17,6 +17,15 @@
     "dotenv": "^17.0.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.16.1"
-  }
+    "mongoose": "^8.16.1",
+    "mysql2": "^3.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcosmassala/codexa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Marcosmassala/codexa/issues"
+  },
+  "homepage": "https://github.com/Marcosmassala/codexa#readme"
 }

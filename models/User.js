@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+/*const mongoose = require("mongoose");
 
 const User = mongoose.model("User", {
   username: { type: String, required: true }, // <--- você esqueceu esse campo!
@@ -7,3 +7,4 @@ const User = mongoose.model("User", {
 });
 
 module.exports = User;
+*/
